@@ -6,7 +6,7 @@ namespace Soenneker.Enums.StorageTypes;
 /// An enumerator for common storage types
 /// </summary>
 [Intellenum<string>]
-public partial class StorageType
+public sealed partial class StorageType
 {
     public static readonly StorageType Memory = new(nameof(Memory));
 
