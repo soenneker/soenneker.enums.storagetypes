@@ -1,11 +1,11 @@
-﻿using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Enums.StorageTypes;
 
 /// <summary>
 /// An enumerator for common storage types
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class StorageType
 {
     public static readonly StorageType Memory = new(nameof(Memory));
