@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Enums.StorageTypes.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Enums.StorageTypes\Soenneker.Enums.StorageTypes.csproj" />
     </ItemGroup>
 
     <ItemGroup>
