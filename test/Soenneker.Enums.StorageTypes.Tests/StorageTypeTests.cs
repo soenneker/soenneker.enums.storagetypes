@@ -1,10 +1,9 @@
-﻿using Xunit;
 
 namespace Soenneker.Enums.StorageTypes.Tests;
 
 public sealed class StorageTypeTests
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
