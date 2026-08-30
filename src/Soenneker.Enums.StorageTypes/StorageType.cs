@@ -3,23 +3,23 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Enums.StorageTypes;
 
 /// <summary>
-/// An enumerator for common storage types
+/// Identifies a supported storage backend category.
 /// </summary>
 [EnumValue<string>]
 public sealed partial class StorageType
 {
     /// <summary>
-    /// The memory.
+    /// In-memory storage.
     /// </summary>
     public static readonly StorageType Memory = new(nameof(Memory));
 
     /// <summary>
-    /// The redis.
+    /// Redis-backed storage.
     /// </summary>
     public static readonly StorageType Redis = new(nameof(Redis));
 
     /// <summary>
-    /// The cosmos.
+    /// Azure Cosmos DB-backed storage.
     /// </summary>
     public static readonly StorageType Cosmos = new(nameof(Cosmos));
 }
